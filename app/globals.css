@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F1F1F7;
+  --foreground: #0a0a0a;
+  --theme-color-1: #3F7D20;
+  --theme-color-2: #72B01D;
+  --navbar-background: #e5e5f0;
+  --answer-background: #0a0a0a;
+  --secondary-white: #ededed;
+  --navbar-stripe-color: #cfcfe3;
+  --tooltip-background: #dedeec;
+  --general-rounding: 1.76em;
+  --sub-foreground: #171718;
+  --third-foreground-shade: #454549;
+  --desktop-headline-font-size: 52px;
+  --mobile-headline-font-size: 30px;
+  --desktop-subheader-font-size: 25px;
+  --mobile-subheader-font-size: 19px;
+  --desktop-horizontal-padding: 2.5rem;
+  --mobile-horizontal-padding: 1rem;
+  --desktop-menu-font-size: 152px;
+  --mobile-menu-font-size: 30px;
+  --event-card-outline: #c2c2dc;
+
+  --widget-header-background: #63b125;
+  --widget-body-background: #dedeec;
+  --widget-bottom-background: #c9c9e0;
+  --widget-message-background: #f7f7ff;
+  --widget-message-text-color: #0a0a0a;
+  --widget-default-button-background: #039a46;
+  --widget-button-text-color: #F1F1F7;
+  --widget-typing-dots-color: #9e9ea1;
+  --widget-name-text-color: #ffffff;
+  --widget-status-text-color: #eeeeee;
+  --widget-wave-color: #4aab4f;
+  --widget-online-dot-color: #038b3f;
+  --widget-chronicle-button-background: #28a138;
+  --widget-hovered-chronicle-button-background: #4da92b;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #363636;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3F7D20;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #59971f;
+}
