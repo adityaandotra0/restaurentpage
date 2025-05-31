@@ -1,4 +1,4 @@
-# shining-yam-fictional-restaurant
+# Restaurant Landing Page
 
 A fictional restaurant landing page created using **Next.js**, **Namer UI**, and **Aceternity UI**.
 
